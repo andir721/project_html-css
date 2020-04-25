@@ -23,12 +23,31 @@ a {
   clear: left;
 }
 
-/* Navbar container */
+/* kode header */
+header {
+  /* height: 50px; */
+  width: 100%;
+  background-color: rgba(228, 241, 254, 0.8);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  transition: all 0.5s;
+}
+
+.logo {
+  width: 74px;
+  float:left;
+}
+.logo:hover{
+  background-color:rgba(34, 167, 240, 0.7);
+}
+
+
+/* Kode Navbar */
 .navbar {
  overflow: hidden;
  background-color: rgba(1, 50, 67, 0.8);
 }
-
 /* Links inside the navbar */
 .navbar a {
  float: left;
@@ -38,13 +57,11 @@ a {
  padding: 14px 16px;
  text-decoration: none;
 }
-
 /* The dropdown container */
 .dropdown {
  float: left;
  overflow: hidden;
 }
-
 /* Dropdown button */
 .dropdown .dropbtn {
  font-size: 16px;
@@ -56,12 +73,10 @@ a {
  font-family: inherit; /* Important for vertical align on mobile phones */
  margin: 0; /* Important for vertical align on mobile phones */
 }
-
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
  background-color: rgba(34, 167, 240, 0.7);
 }
-
 /* Dropdown content (hidden by default) */
 .dropdown-content {
  display: none;
@@ -71,7 +86,6 @@ a {
  box-shadow: 0px 8px 16px 0px rgba(228, 241, 254, 0.9);
  z-index: 1;
 }
-
 /* Links inside the dropdown */
 .dropdown-content a {
  float: none;
@@ -81,23 +95,28 @@ a {
  display: block;
  text-align: left;
 }
-
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
  background-color: #ddd;
 }
-
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
  display: block;
 }
 
 
+/* Ukuran Body dan container */
 .container {
+  max-width: 1170px;
   width: 100%;
+  padding: 0 15px;
   margin: 0 auto;
 }
-
+.container h3{
+  width: 80%;
+  margin:0 auto;
+  text-align: center;
+}
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(http://www.consultsynergy.ae/wp-content/uploads/2017/10/OurTeam.jpg);
@@ -105,38 +124,39 @@ a {
   color: black;
   text-align: center;
 }
-
 .top-wrapper h1 {
-  opacity: 0.7;
+  opacity: 1;
   font-size: 45px;
   text-shadow:1px 1px blue;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
 
+.top-wrapper h3{
+  font-size: 20px;
+  text-shadow:1px 1px blue;
+  color: white
+}
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
 }
 
+/* kode tombol media sosial */
 .btn-wrapper {
   text-align: center;
   margin: 20px 0;
 }
-
 .btn-wrapper p {
   margin: 10px 0;
 }
-
 .signup {
   background-color: #239b76;
 }
-
 .facebook {
   background-color: #3b5998;
   margin-right: 10px;
 }
-
 .twitter {
   background-color: #55acee;
 }
@@ -149,34 +169,15 @@ a {
   border-radius: 4px;
   text-align: center;
 }
-
 .btn:hover {
   opacity: 1;
 }
-
 .fa {
   margin-right: 5px;
 }
 
-header {
-  height: 50px;
-  width: 100%;
-  background-color: rgba(228, 241, 254, 0.8);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-  transition: all 0.5s;
-}
 
-
-.logo {
-  width: 74px;
-  float:left;
-}
-.logo:hover{
-  background-color:rgba(34, 167, 240, 0.7);
-}
-
+/* kode profile team */
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -198,6 +199,7 @@ header {
 .lesson {
   float: left;
   width: 20%;
+  /*transition berfungsi untuk zoom tulisan dan gambar*/
   transition: transform .9s ease;
   opacity:0.9;
 }
@@ -236,11 +238,11 @@ header {
 .text-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 5px;
   font-size: 14px;
   color: #191970;
   /*kalimat di rata kanan kiri*/
-  text-align: justify;
+  text-align: center;
 }
 
 .heading h3 {
@@ -255,9 +257,9 @@ header {
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: rgba(1, 50, 67, 1);
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  box-shadow: 0 7px rgba(37, 116, 169, 1);
 }
 
 .message:active {
