@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Progate</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/andir721/project_html-css/master/img/icon-dts.png">
+    <title>B2_DTS20</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
   </head>
   <body>
     <header>
-    <div class="navbar">
+    <!-- code untuk tombol navigasi -->
+    <div class="navbar" >
+      <!-- logo -->
       <img class="logo" src="https://raw.githubusercontent.com/andir721/project-html-css/master/digital-talent.png">
       <a href="#home">Home</a>
       <div class="dropdown">
@@ -18,84 +22,97 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="#">Andi Indra Jaya</a>
-          <a href="#">Bagus Pria Ambada</a>
-          <a href="#">Barul Rozak</a>
-          <a href="#">Annas Malik</a>
-          <a href="#">Sandi Mardiansyah</a>
+          <a href="#team1">Andi Indra Jaya</a>
+          <a href="#team2">Bagus Pria Ambada</a>
+          <a href="#team3">Barul Rozak</a>
+          <a href="#team4">Annas Malik</a>
+          <a href="#team5">Sandi Mardiansyah</a>
         </div>
       </div>
-
     </div>
     </header>
-    <div class="top-wrapper">
+
+    <!-- code untuk body atas-->
+    <div class="top-wrapper" id="home">
       <div class="container">
-        <h1>PROJECT I (HTML-CSS)</h1>
-        <h1>TEAM B2</h1>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup">Daftar dengan Email</a>
-          <p>atau</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
-        </div>
+          <h1>PROJECT I (HTML-CSS)</h1>
+          <h1>TEAM B2</h1>
+          <h3>Web ini dibuat untuk mengimplementasikan ilmu HTML dan CSS yang telah didapatkan dari <a href="https://digitalent.kominfo.go.id/pelatihan/OA">Kominfo</a> melalui kerja sama mitra pelatihan <a href="https://progate.com/">Progate</a></h3>
+          <div class="btn-wrapper">
+            <a href="#" class="btn signup"><span class="fa fa-envelope"></span>Daftar dengan Email</a>
+            <p>atau</p>
+            <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+            <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+          </div>
       </div>
     </div>
-    <div class="lesson-wrapper">
+
+    <!-- Profile Team -->
+    <div class="lesson-wrapper" >
       <div class="container">
-        <div class="heading">
-           <h2>Profile Team Kami!</h2>
+        <div class="heading" id="team1">
+           <h2>Profile Team Kami B2!</h2>
         </div>
+
         <div class="lessons">
-          <div class="lesson">
+          <!-- Masing-masing Team -->
+          <div class="lesson" id="team1">
             <div class="lesson-icon">
               <img class="profile" src="https://raw.githubusercontent.com/andir721/project1/master/img/andi_indra_jaya.jpg">
               <p>Andi Indra Jaya</p>
             </div>
-            <p class="text-contents">Dua bahasa yang digunakan untuk membangun struktur dan design tambilan website anda.</p>
+            <p class="text-contents">STATISTISI & DATA SCIENTIST</p>
           </div>
-          <div class="lesson">
+          <!-- Masing-masing Team -->
+          <div class="lesson" id="team2">
             <div class="lesson-icon">
               <img class="profile" src="https://prog-8.com/images/html/advanced/ruby.png">
               <p>Photo 02</p>
             </div>
             <p class="text-contents">JavaScript Library yang cepat, kaya akan fitur dan mudah digunakan untuk menangani animasi dan permintaan Ajax.</p>
           </div>
-          <div class="lesson">
+          <!-- Masing-masing Team -->
+          <div class="lesson" id="team3">
             <div class="lesson-icon">
               <img class="profile" src="https://prog-8.com/images/html/advanced/ruby.png">
               <p>Photo 03</p>
             </div>
             <p class="text-contents">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
           </div>
-          <div class="lesson">
+          <!-- Masing-masing Team -->
+          <div class="lesson" id="team4">
             <div class="lesson-icon">
               <img class="profile" src="https://prog-8.com/images/html/advanced/ruby.png">
               <p>Photo 04</p>
             </div>
             <p class="text-contents">Bahasa scripting "open-source" yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
           </div>
-          <div class="lesson">
+          <!-- Masing-masing Team -->
+          <div class="lesson" id="team5">
             <div class="lesson-icon">
               <img class="profile" src="https://prog-8.com/images/html/advanced/ruby.png">
               <p>Photo 03</p>
             </div>
             <p class="text-contents">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
           </div>
+
           <div class="clear"></div>
         </div>
       </div>
     </div>
+
+    <!-- Pesan Tambahan-->
     <div class="message-wrapper">
       <div class="container">
         <div class="heading">
           <h2>Apakah anda siap bergabung bersama kami?</h2>
-          <h3>Ayo bergabung, ayo belajar menjadi lebih kreatif!</h3>
+          <h3>Mari bergabung, kembangkan kreativitas anda</h3>
         </div>
         <span class="btn message">Gabung!</span>
       </div>
     </div>
 
-
+    <!-- Code Footer-->
     <footer>
       <div class="container">
         <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
