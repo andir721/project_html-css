@@ -290,10 +290,10 @@ input, textarea {
 }
 
 footer {
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
 p {
-  color: #b3aeb5;
   font-size: 12px;
 }
