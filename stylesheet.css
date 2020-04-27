@@ -290,20 +290,10 @@ input, textarea {
 }
 
 footer {
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
 p {
   color: #b3aeb5;
   font-size: 12px;
-}
-
-/* Ketik code Anda dibawah */
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
 }
