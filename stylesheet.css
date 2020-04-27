@@ -269,6 +269,7 @@ header {
 }
 
 .contact-form {
+  text-align: center;
   padding-top: 20px;
   padding-left: 15px;
 }
@@ -290,10 +291,12 @@ input, textarea {
 }
 
 footer {
-  padding-top: 20px;  
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 p {
   font-size: 12px;
-  color: #191970;
+  color: #ecf0f1;
 }
