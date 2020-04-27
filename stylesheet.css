@@ -289,8 +289,10 @@ input, textarea {
   color: white;
 }
 
-footer img {
-  width: 125px;
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 p {
@@ -298,12 +300,6 @@ p {
   font-size: 12px;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-align: center;
 }
 
 /* Ketik code Anda dibawah */
